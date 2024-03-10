@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+.BorderClass {
+  @apply border-2
+   border-solid border-black rounded-[7px];
+}
+
+@tailwind utilities;
+
+@layer components {
+  .bShadow {
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px,
+      rgba(0, 0, 0, 0.22) 0px 10px 10px;
+  }
+  .borderClass2 {
+    border: 1px solid black;
+    border-radius: 7px;
+  }
+  .VericalCenter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+}

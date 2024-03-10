@@ -1,0 +1,12 @@
+.IconsWrapper::-webkit-scrollbar {
+    width: 0;
+    display: none;
+  }
+  
+  .IconsText {
+    font-size: 14px;
+  }
+  .IconsText:hover {
+    border-bottom: 2px solid #c7c8cc;
+  }
+  
