@@ -2,31 +2,8 @@ import { IoLogoFacebook } from "react-icons/io";
 import { FcGoogle } from "react-icons/fc";
 import { IoLogoApple } from "react-icons/io5";
 import { MdOutlineMail } from "react-icons/md";
-import { useContext, useEffect } from "react";
-import { StoreData } from "../../Store/Store";
-import { useForm } from "react-hook-form";
 
 function SignUpPage() {
-  const {
-    register,
-    handleSubmit,
-    formState: { isSubmitSuccessful },
-    reset,
-  } = useForm();
-
-  const { SignUpNewUser, SignUpwithGoogle } = useContext(StoreData);
-
-  const SignUpuser = (data) => {
-    const { Email, Password } = data;
-    SignUpNewUser(Email, Password);
-  };
-
-  useEffect(() => {
-    if (isSubmitSuccessful) {
-      reset();
-    }
-  }, [isSubmitSuccessful]);
-
   return (
     <>
       <button
@@ -46,20 +23,18 @@ function SignUpPage() {
             Log in or Sign-up page
           </h3>
           <hr className="bg-[#000000]" />
-          <form onSubmit={handleSubmit(SignUpuser)}>
+          <form >
             <div className="inputbox flex flex-col bg-white my-2 BorderClass ">
               <input
                 className="h-14 text-xl rounded-[7px] outline-none px-5"
                 type="text"
                 placeholder="Email"
-                {...register("Email")}
               />
               <hr className="bg-[#000000] h-[1.7px]" />
               <input
                 className="h-14 text-xl outline-none rounded-[7px] px-5"
                 type="password"
                 placeholder="Password"
-                {...register("Password")}
               />
             </div>
             <div className="w-full text-center my-5 space-y-3">
@@ -88,7 +63,6 @@ function SignUpPage() {
               </div>
             </div>
             <div
-              onClick={SignUpwithGoogle}
               className="Google cursor-pointer grid grid-cols-4 borderClass2 p-3 hover:bg-[#c7c8cc]"
             >
               <div className="col-span-1">

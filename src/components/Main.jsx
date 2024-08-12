@@ -24,20 +24,6 @@ function Main() {
                   alt="Hotels Room Image"
                 />
               </div>
-              <div className="carousel-item w-full   rounded-box">
-                <img
-                  src={items.Img2}
-                  className="w-full"
-                  alt="Hotels Room Image"
-                />
-              </div>
-              <div className="carousel-item   w-full rounded-box">
-                <img
-                  src={items.Img3}
-                  className="w-full"
-                  alt="Hotels Room Image"
-                />
-              </div>
             </div>
           </figure>
           <div className="card-body ">

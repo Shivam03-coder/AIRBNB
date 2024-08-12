@@ -1,32 +1,10 @@
-import React, { useContext, useEffect, useRef } from "react";
+import React from "react";
 import { IoLogoFacebook } from "react-icons/io";
 import { FcGoogle } from "react-icons/fc";
 import { IoLogoApple } from "react-icons/io5";
 import { MdOutlineMail } from "react-icons/md";
-import { StoreData } from "../../Store/Store";
-import { useForm } from "react-hook-form";
 
 function LoginPage() {
-  const { SignInUser } = useContext(StoreData);
-
-  const {
-    register,
-    handleSubmit,
-    formState: { isSubmitSuccessful },
-    reset,
-  } = useForm();
-
-  const HandleOnLogin = (data) => {
-    const { Email, Password } = data;
-    SignInUser(Email, Password);
-  };
-
-  useEffect(() => {
-    if (isSubmitSuccessful) {
-      reset();
-    }
-  }, [isSubmitSuccessful]);
-
   return (
     <>
       <button
@@ -46,20 +24,18 @@ function LoginPage() {
             Log in or Sign-up page
           </h3>
           <hr className="bg-[#000000]" />
-          <form onSubmit={handleSubmit(HandleOnLogin)}>
+          <form >
             <div className="inputbox flex flex-col bg-white my-2 BorderClass ">
               <input
                 className="h-14 text-xl rounded-[7px] outline-none px-5"
                 type="text"
                 placeholder="Email"
-                {...register("Email")}
               />
               <hr className="bg-[#000000] h-[1.7px]" />
               <input
                 className="h-14 text-xl outline-none rounded-[7px] px-5"
                 type="password"
                 placeholder="Password"
-                {...register("Password")}
               />
             </div>
             <div className="w-full text-center my-5 space-y-3">

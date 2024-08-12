@@ -2,13 +2,11 @@
 let Price = Math.floor(Math.random() * 1001) + 1000;
 
 let Distance = Math.floor(Math.random() * 900) + 100;
-
-export const DataList = [
+ export const DataList = [
   {
     id: 1,
+
     Img1: "https://i.ibb.co/6PpMzHj/image1.jpg",
-    Img2: "https://imagetolink.com/ib/YtVwlX0mxS.jpg",
-    Img3: "https://imagetolink.com/ib/q8pEteQxPH.jpg",
     Location: "KOLKATA,INDIA",
     Rating: 4.6,
     Distance: `${Distance + 122} kilometer away`,
@@ -17,9 +15,8 @@ export const DataList = [
   },
   {
     id: 2,
-    Img1: "https://imagetolink.com/ib/9i4kpXN4XG.jpg",
-    Img2: "https://imagetolink.com/ib/YtVwlX0mxS.jpg",
-    Img3: "https://imagetolink.com/ib/q8pEteQxPH.jpg",
+
+    Img1: "https://i.ibb.co/6PpMzHj/image1.jpg",
     Location: "INDORE,INDIA",
     Rating: 4.3 - 0.2,
     Distance: `${Distance + 111} kilometer away`,
@@ -28,9 +25,8 @@ export const DataList = [
   },
   {
     id: 3,
-    Img1: "https://imagetolink.com/ib/mG3VPi0bMT.jpg",
-    Img2: "https://imagetolink.com/ib/YtVwlX0mxS.jpg",
-    Img3: "https://imagetolink.com/ib/q8pEteQxPH.jpg",
+
+    Img1: "https://i.ibb.co/6PpMzHj/image1.jpg",
     Location: "GOA,INDIA",
     Rating: 3.2,
     Distance: `${Distance + 234} kilometer away`,
@@ -39,9 +35,8 @@ export const DataList = [
   },
   {
     id: 4,
-    Img1: "https://imagetolink.com/ib/x5xwfKqPHL.jpg",
-    Img2: "https://imagetolink.com/ib/YtVwlX0mxS.jpg",
-    Img3: "https://imagetolink.com/ib/q8pEteQxPH.jpg",
+
+    Img1: "https://i.ibb.co/6PpMzHj/image1.jpg",
     Location: "DELHI,INDIA",
     Rating: 2.2 - 0.2,
     Distance: `${Distance + 234} kilometer away`,
@@ -50,9 +45,8 @@ export const DataList = [
   },
   {
     id: 5,
-    Img1: "https://imagetolink.com/ib/ENVAINZ3Ph.jpg",
-    Img2: "https://imagetolink.com/ib/WPCu6gmS2Q.jpg",
-    Img3: "https://imagetolink.com/ib/X5f0iIsFtK.jpg",
+
+    Img1: "https://i.ibb.co/6PpMzHj/image1.jpg",
     Location: "AHEMDABAD,INDIA",
     Rating: 4.2,
     Distance: `${Distance + 123} kilometer away`,
@@ -61,9 +55,8 @@ export const DataList = [
   },
   {
     id: 6,
-    Img1: "https://imagetolink.com/ib/WPCu6gmS2Q.jpg",
-    Img2: "https://imagetolink.com/ib/ENVAINZ3Ph.jpg",
-    Img3: "https://imagetolink.com/ib/X5f0iIsFtK.jpg",
+
+    Img1: "https://i.ibb.co/6PpMzHj/image1.jpg",
     Location: "CHENNAI,INDIA",
     Rating: 3.0 + 0.3,
     Distance: `${Distance + 56} kilometer away`,
@@ -72,9 +65,8 @@ export const DataList = [
   },
   {
     id: 7,
-    Img1: "https://imagetolink.com/ib/4AkBPz2Sbm.jpg",
-    Img2: "https://imagetolink.com/ib/ENVAINZ3Ph.jpg",
-    Img3: "https://imagetolink.com/ib/X5f0iIsFtK.jpg",
+
+    Img1: "https://i.ibb.co/6PpMzHj/image1.jpg",
     Location: "BENGLURU,INDIA",
     Rating: 3.1 - 0.1,
     Distance: `${Distance + 67} kilometer away`,
@@ -83,9 +75,8 @@ export const DataList = [
   },
   {
     id: 8,
-    Img1: "https://imagetolink.com/ib/X5f0iIsFtK.jpg",
-    Img2: "https://imagetolink.com/ib/ENVAINZ3Ph.jpg",
-    Img3: "https://imagetolink.com/ib/X5f0iIsFtK.jpg",
+
+    Img1: "https://i.ibb.co/6PpMzHj/image1.jpg",
     Location: "HYDERABAD,INDIA",
     Rating: 4.1,
     Distance: `${Distance + 69} kilometer away`,
@@ -94,9 +85,8 @@ export const DataList = [
   },
   {
     id: 9,
-    Img1: "https://imagetolink.com/ib/0mIwtExhlT.jpg",
-    Img2: "https://imagetolink.com/ib/k0A0Iv9YX1.jpg",
-    Img3: "https://imagetolink.com/ib/bSVUhDM2V6.jpg",
+
+    Img1: "https://i.ibb.co/6PpMzHj/image1.jpg",
     Location: "UJJAIN,INDIA",
     Rating: 4.0,
     Distance: `${Distance + 98} kilometer away`,
@@ -105,9 +95,8 @@ export const DataList = [
   },
   {
     id: 10,
-    Img1: "https://imagetolink.com/ib/k0A0Iv9YX1.jpg",
-    Img2: "https://imagetolink.com/ib/0mIwtExhlT.jpg",
-    Img3: "https://imagetolink.com/ib/bSVUhDM2V6.jpg",
+
+    Img1: "https://i.ibb.co/6PpMzHj/image1.jpg",
     Location: "GURUGRAM,INDIA",
     Rating: 3.5,
     Distance: `${Distance + 23} kilometer away`,
@@ -116,9 +105,8 @@ export const DataList = [
   },
   {
     id: 11,
-    Img1: "https://imagetolink.com/ib/bSVUhDM2V6.jpg",
-    Img2: "https://imagetolink.com/ib/k0A0Iv9YX1.jpg",
-    Img3: "https://imagetolink.com/ib/0mIwtExhlT.jpg",
+
+    Img1: "https://i.ibb.co/6PpMzHj/image1.jpg",
     Location: "PATNA,INDIA",
     Rating: 3.6,
     Distance: `${Distance + 32} kilometer away`,
@@ -127,9 +115,8 @@ export const DataList = [
   },
   {
     id: 12,
-    Img1: "https://imagetolink.com/ib/eWHbg4vBHZ.jpg",
-    Img2: "https://imagetolink.com/ib/0mIwtExhlT.jpg",
-    Img3: "https://imagetolink.com/ib/bSVUhDM2V6.jpg",
+
+    Img1: "https://i.ibb.co/6PpMzHj/image1.jpg",
     Location: "MUMBAI,INDIA",
     Rating: 4 - 0.6,
     Distance: `${Distance + 66} kilometer away`,
@@ -138,9 +125,8 @@ export const DataList = [
   },
   {
     id: 13,
-    Img1: "https://imagetolink.com/ib/Urhb3NgIva.jpg",
-    Img2: "https://imagetolink.com/ib/qofQ5EoXEn.jpg",
-    Img3: "https://imagetolink.com/ib/WAK4Gp4czc.jpg",
+
+    Img1: "https://i.ibb.co/6PpMzHj/image1.jpg",
     Location: "PUNE,INDIA",
     Rating: 4.7 - 0.7,
     Distance: `${Distance + 52} kilometer away`,
@@ -149,9 +135,8 @@ export const DataList = [
   },
   {
     id: 14,
-    Img1: "https://imagetolink.com/ib/hvUNaAGo5n.jpg",
-    Img2: "https://imagetolink.com/ib/qofQ5EoXEn.jpg",
-    Img3: "https://imagetolink.com/ib/WAK4Gp4czc.jpg",
+
+    Img1: "https://i.ibb.co/6PpMzHj/image1.jpg",
     Location: "RAJKOT,INDIA",
     Rating: 4.1,
     Distance: `${Distance + 33} kilometer away`,
@@ -160,9 +145,8 @@ export const DataList = [
   },
   {
     id: 15,
-    Img1: "https://imagetolink.com/ib/qofQ5EoXEn.jpg",
-    Img2: "https://imagetolink.com/ib/qofQ5EoXEn.jpg",
-    Img3: "https://imagetolink.com/ib/WAK4Gp4czc.jpg",
+
+    Img1: "https://i.ibb.co/6PpMzHj/image1.jpg",
     Location: "RAIPUR,INDIA",
     Rating: 4.5,
     Distance: `${Distance + 44} kilometer away`,
@@ -171,9 +155,8 @@ export const DataList = [
   },
   {
     id: 16,
-    Img1: "https://imagetolink.com/ib/WAK4Gp4czc.jpg",
-    Img2: "https://imagetolink.com/ib/qofQ5EoXEn.jpg",
-    Img3: "https://imagetolink.com/ib/WAK4Gp4czc.jpg",
+
+    Img1: "https://i.ibb.co/6PpMzHj/image1.jpg",
     Location: "SONIPAT,INDIA",
     Rating: 4.6,
     Distance: `${Distance + 52} kilometer away`,
@@ -182,9 +165,8 @@ export const DataList = [
   },
   {
     id: 17,
-    Img1: "https://imagetolink.com/ib/uFIsxCmKop.jpg",
-    Img2: "https://imagetolink.com/ib/CgRlkkC03K.jpg",
-    Img3: "https://imagetolink.com/ib/KYJlGl5uCf.jpg",
+
+    Img1: "https://i.ibb.co/6PpMzHj/image1.jpg",
     Location: "NOIDA,INDIA",
     Rating: 4.2,
     Distance: `${Distance + 99} kilometer away`,
@@ -193,9 +175,8 @@ export const DataList = [
   },
   {
     id: 18,
-    Img1: "https://imagetolink.com/ib/CgRlkkC03K.jpg",
-    Img2: "https://imagetolink.com/ib/uFIsxCmKop.jpg",
-    Img3: "https://imagetolink.com/ib/KYJlGl5uCf.jpg",
+
+    Img1: "https://i.ibb.co/6PpMzHj/image1.jpg",
     Location: "ASSAM,INDIA",
     Rating: 4.4,
     Distance: `${Distance + 65} kilometer away`,
@@ -204,9 +185,8 @@ export const DataList = [
   },
   {
     id: 19,
-    Img1: "https://imagetolink.com/ib/KYJlGl5uCf.jpg",
-    Img2: "https://imagetolink.com/ib/CgRlkkC03K.jpg",
-    Img3: "https://imagetolink.com/ib/uFIsxCmKop.jpg",
+
+    Img1: "https://i.ibb.co/6PpMzHj/image1.jpg",
     Location: "RISHIKESH,INDIA",
     Rating: 4.0,
     Distance: `${Distance + 32} kilometer away`,
@@ -215,9 +195,8 @@ export const DataList = [
   },
   {
     id: 20,
-    Img1: "https://imagetolink.com/ib/LdmRvCJOQ5.jpg",
-    Img2: "https://imagetolink.com/ib/CgRlkkC03K.jpg",
-    Img3: "https://imagetolink.com/ib/KYJlGl5uCf.jpg",
+
+    Img1: "https://i.ibb.co/6PpMzHj/image1.jpg",
     Location: "HARIDWAR,INDIA",
     Rating: 4.2 + 0.3,
     Distance: `${Distance + 41} kilometer away`,
@@ -226,9 +205,8 @@ export const DataList = [
   },
   {
     id: 21,
-    Img1: "https://imagetolink.com/ib/o9uTDKdszR.jpg",
-    Img2: "https://imagetolink.com/ib/LdmRvCJOQ5.jpg",
-    Img3: "https://imagetolink.com/ib/p3buqSVU9b.jpg",
+
+    Img1: "https://i.ibb.co/6PpMzHj/image1.jpg",
     Location: "TRICHI,INDIA",
     Rating: 3.5 + 0.8,
     Distance: `${Distance + 52} kilometer away`,
@@ -237,9 +215,8 @@ export const DataList = [
   },
   {
     id: 22,
-    Img1: "https://imagetolink.com/ib/p3buqSVU9b.jpg",
-    Img2: "https://imagetolink.com/ib/XmGiu0lxl4.jpg",
-    Img3: "https://imagetolink.com/ib/I75ycDoouK.jpg",
+
+    Img1: "https://i.ibb.co/6PpMzHj/image1.jpg",
     Location: "AGARTALLA,INDIA",
     Rating: 3.5 + 0.2,
     Distance: `${Distance + 75} kilometer away`,
@@ -248,9 +225,8 @@ export const DataList = [
   },
   {
     id: 23,
-    Img1: "https://imagetolink.com/ib/hvUNaAGo5n.jpg",
-    Img2: "https://imagetolink.com/ib/o9uTDKdszR.jpg",
-    Img3: "https://imagetolink.com/ib/p3buqSVU9b.jpg",
+
+    Img1: "https://i.ibb.co/6PpMzHj/image1.jpg",
     Location: "JALANDHAR,INDIA",
     Rating: 5.0 - 0.7,
     Distance: `${Distance + 32} kilometer away`,
@@ -259,9 +235,8 @@ export const DataList = [
   },
   {
     id: 24,
-    Img1: "https://imagetolink.com/ib/I75ycDoouK.jpg",
-    Img2: "https://imagetolink.com/ib/LdmRvCJOQ5.jpg",
-    Img3: "https://imagetolink.com/ib/p3buqSVU9b.jpg",
+
+    Img1: "https://i.ibb.co/6PpMzHj/image1.jpg",
     Location: "CHATTISHGARH,INDIA",
     Rating: 5.0 - 0.6,
     Distance: `${Distance + 1111} kilometer away`,
@@ -270,9 +245,8 @@ export const DataList = [
   },
   {
     id: 25,
-    Img1: "https://imagetolink.com/ib/aAfW6Ey4Qs.jpg",
-    Img2: "https://imagetolink.com/ib/VK3Rtk4Sji.jpg",
-    Img3: "https://imagetolink.com/ib/VAWyPd5BiQ.jpg",
+
+    Img1: "https://i.ibb.co/6PpMzHj/image1.jpg",
     Location: "CHANDIGARH,INDIA",
     Rating: 5.0 - 0.5,
     Distance: `${Distance + 45} kilometer away`,
@@ -281,9 +255,8 @@ export const DataList = [
   },
   {
     id: 26,
-    Img1: "https://imagetolink.com/ib/yuuWYM9Dj0.jpg",
-    Img2: "https://imagetolink.com/ib/LdmRvCJOQ5.jpg",
-    Img3: "https://imagetolink.com/ib/p3buqSVU9b.jpg",
+
+    Img1: "https://i.ibb.co/6PpMzHj/image1.jpg",
     Location: "JAMMU,INDIA",
     Rating: 5.0 - 0.4,
     Distance: `${Distance + 893} kilometer away`,
@@ -292,9 +265,8 @@ export const DataList = [
   },
   {
     id: 27,
-    Img1: "https://imagetolink.com/ib/r1eLABZmV8.jpg",
-    Img2: "https://imagetolink.com/ib/rK3TvrlxeM.jpg",
-    Img3: "https://imagetolink.com/ib/yuuWYM9Dj0.jpg",
+
+    Img1: "https://i.ibb.co/6PpMzHj/image1.jpg",
     Location: "LADAKH,INDIA",
     Rating: 5 - 0.3,
     Distance: `${Distance + 423} kilometer away`,
@@ -303,9 +275,8 @@ export const DataList = [
   },
   {
     id: 28,
-    Img1: "https://imagetolink.com/ib/7sogL2abMh.jpg",
-    Img2: "https://imagetolink.com/ib/hvUNaAGo5n.jpg",
-    Img3: "https://imagetolink.com/ib/iJiaUVhTdD.jpg",
+
+    Img1: "https://i.ibb.co/6PpMzHj/image1.jpg",
     Location: "LUCKNOW,INDIA",
     Rating: 5 - 0.2,
     Distance: `${Distance} kilometer away`,
